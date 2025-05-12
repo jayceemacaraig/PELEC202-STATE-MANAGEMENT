@@ -15,10 +15,7 @@ const UserList = () => {
 
   if (loading) {
     return <LoadingScreen />;
-  } else {
-    document.title = "User Management";
   }
-
   if (error) {
     return (
       <div className="p-4 text-center text-red-500 font-medium">
